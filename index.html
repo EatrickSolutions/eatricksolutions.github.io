@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- AdSense Verification Meta Tag -->
+    <meta name="google-adsense-account" content="ca-pub-1393829685060976">
+    
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FWQ188JLQ5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FWQ188JLQ5');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWQ188JLQ5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FWQ188JLQ5');
+    </script>
+    
+    <!-- AdSense Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1393829685060976" crossorigin="anonymous"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-<!-- SEO Meta Tags -->
+    <!-- SEO Meta Tags -->
     <title>IT Services Kampala | Eatrick Computer Solutions - Premier IT Company Uganda</title>
     <meta name="description" content="Leading IT services company in Kampala, Uganda. Cloud solutions, cybersecurity, mobile development, DevOps automation & 24/7 IT support. Free consultation available.">
     <meta name="keywords" content="IT services Kampala, computer solutions Uganda, cloud services Kampala, cybersecurity Uganda, IT support Kampala,Best Computer Company, managed IT services, DevOps automation Uganda, mobile app development Kampala">
@@ -25,7 +30,7 @@
     <meta name="geo.position" content="0.3476;32.5825">
     <meta name="ICBM" content="0.3476, 32.5825">
 
-        <!-- Open Graph Meta Tags -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Eatrick Computer Solutions - Premier IT Services in Kampala, Uganda">
     <meta property="og:description" content="Transform your business with cutting-edge IT solutions| Moving with Advancing Technology. Cloud migration, cybersecurity, AI/ML, and 24/7 support in Kampala, Uganda.">
     <meta property="og:type" content="website">
@@ -143,10 +148,8 @@
 
     <!-- Favicon and App Icons -->
     <link rel="icon" type="image/jpeg" href="img/ECS.jpg">
-<link rel="apple-touch-icon" sizes="180x180" href="img/ECS.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/ECS.jpg">
 
-
-    <title>Eatrck Computer Solutions - Premier IT Services</title>
     <style>
         * {
             margin: 0;
@@ -857,8 +860,8 @@
         </div>
         <div class="container">
             <div class="hero-content">
-                <h1>Moving With Advancing Technology </h1>
-                Next-Gen IT Solutions
+                <h1>Moving With Advancing Technology</h1>
+                <p>Next-Gen IT Solutions</p>
                 <p>Empowering businesses with cutting-edge technology and innovative digital transformation</p>
                 <a href="#contact" class="cta-button">Get Started Today</a>
             </div>
@@ -989,7 +992,6 @@
                     <div class="team-role">AI/ML Specialist</div>
                     <p>PhD in Computer Science with focus on machine learning algorithms and neural network optimization.</p>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -1055,7 +1057,7 @@
             <h2 class="section-title">About Eatrick Solutions</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Founded in 2022,  Eatrick Solutions has emerged as a leading technology partner for enterprises seeking digital transformation. With over a decade of combined experience, our team of certified professionals has successfully delivered 500+ projects across various industries.</p>
+                    <p>Founded in 2022, Eatrick Solutions has emerged as a leading technology partner for enterprises seeking digital transformation. With over a decade of combined experience, our team of certified professionals has successfully delivered 500+ projects across various industries.</p>
                     <p>We specialize in cutting-edge technologies including cloud computing, artificial intelligence, cybersecurity, and DevOps automation. Our mission is to empower businesses with innovative solutions that drive growth, efficiency, and competitive advantage.</p>
                     <p>From startups to Fortune 500 companies, we've helped organizations modernize their technology infrastructure, streamline operations, and unlock new revenue opportunities. Our commitment to excellence, security, and scalability ensures that every solution we deliver exceeds expectations.</p>
                     <p>With offices in major tech hubs and a global team of experts, we're positioned to serve clients worldwide while maintaining the personal touch and agility of a boutique consultancy.</p>
@@ -1136,9 +1138,9 @@
                     <h3>Contact Info</h3>
                     <ul>
                         <li>eatrickcomputersolutions@techie.com</li>
-                        <li> +256708857247</li>
-                        <li> Kampala</li>
-                        <li> Mon-Fri: 9AM-6PM </li>
+                        <li>+256708857247</li>
+                        <li>Kampala</li>
+                        <li>Mon-Fri: 9AM-6PM</li>
                         <li>24/7 Emergency Support</li>
                     </ul>
                 </div>
@@ -1165,7 +1167,6 @@
             showSlide(currentSlide);
         }
 
-        // Auto-advance slides every 5 seconds
         setInterval(nextSlide, 5000);
 
         // Navbar scroll effect
@@ -1178,7 +1179,7 @@
             }
         });
 
-        // Smooth scrolling for navigation links
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1195,7 +1196,6 @@
         // Form submission
         document.querySelector('.contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
-            // Show success message
             const button = this.querySelector('button');
             const originalText = button.textContent;
             button.textContent = 'Message Sent Successfully! ✓';
@@ -1208,12 +1208,10 @@
             }, 3000);
         });
 
-        // Animated counters for stats
+        // Animated counters
         function animateCounters() {
             const counters = document.querySelectorAll('.stat-number');
-            const options = {
-                threshold: 0.7
-            };
+            const options = { threshold: 0.7 };
 
             const observer = new IntersectionObserver(function(entries) {
                 entries.forEach(entry => {
@@ -1245,7 +1243,6 @@
                                 target.textContent = currentNumber.toFixed(1) + '%';
                             }, 20);
                         } else if (finalNumber.includes('/')) {
-                            // For 24/7, just keep as is
                             target.textContent = finalNumber;
                         }
                         observer.unobserve(target);
@@ -1253,12 +1250,10 @@
                 });
             }, options);
 
-            counters.forEach(counter => {
-                observer.observe(counter);
-            });
+            counters.forEach(counter => observer.observe(counter));
         }
 
-        // Service cards animation on scroll
+        // Cards animation
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -1275,18 +1270,16 @@
             });
         }, observerOptions);
 
-        // Apply animation to various elements
-        document.querySelectorAll('.service-card, .solution-item, .portfolio-item, .team-member, .testimonial').forEach((card, index) => {
+        document.querySelectorAll('.service-card, .solution-item, .portfolio-item, .team-member, .testimonial').forEach((card) => {
             card.style.opacity = '0';
             card.style.transform = 'translateY(30px)';
             card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             cardObserver.observe(card);
         });
 
-        // Initialize animations
         animateCounters();
 
-        // Parallax effect for background sections
+        // Parallax effect
         window.addEventListener('scroll', function() {
             const scrolled = window.pageYOffset;
             const parallaxElements = document.querySelectorAll('.solutions, .stats, .contact');
@@ -1297,7 +1290,7 @@
             });
         });
 
-        // Add loading animation
+        // Loading animation
         window.addEventListener('load', function() {
             document.body.style.opacity = '0';
             document.body.style.transition = 'opacity 0.5s ease';
@@ -1306,7 +1299,7 @@
             }, 100);
         });
 
-        // Mobile menu toggle (for responsive design)
+        // Mobile menu
         const mobileMenuToggle = document.createElement('div');
         mobileMenuToggle.innerHTML = '☰';
         mobileMenuToggle.style.display = 'none';
@@ -1314,7 +1307,6 @@
         mobileMenuToggle.style.cursor = 'pointer';
         mobileMenuToggle.style.color = '#00d4ff';
 
-        // Add mobile menu functionality
         if (window.innerWidth <= 768) {
             const navContent = document.querySelector('.nav-content');
             navContent.appendChild(mobileMenuToggle);
@@ -1335,4 +1327,3 @@
     </script>
 </body>
 </html>
-
